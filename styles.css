@@ -1,25 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --border-radius: 25px;
+}
+
 body {
     background-color: hsl(216, 12%, 8%);
 }
 
 .rating-card {
-    background-color: white;
+    background-color: hsl(213, 19%, 18%);
     height: 400px;
-    width: 500px;
-    border-radius: 25px;
+    width: 400px;
+    border-radius: var(--border-radius);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding: 25px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .rating-card > div {
     background-color: green;
     flex-grow: 1;
     flex-shrink: 3;
-    margin: 5px;
+    margin: 0;
+    background: none;
+}
+
+.rating-card .rating-star {
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
 }
 
 .rating-card .rating-text {
     flex-grow: 2;
     flex-shrink: 0;
+}
+
+.rating-card .rating-text h1{
+    color: white;
+}
+
+.rating-card .rating-text p{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+
+.rating-card .rating-button-div {
+    border-bottom-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+}
+
+.rating-star .star {
+    height: 50px;
+    width: 50px;
+    background-color: hsl(216, 12%, 25%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating-numbers {
+    color: hsl(217, 12%, 63%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating-numbers > span {
+    background-color: hsl(216, 12%, 25%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
