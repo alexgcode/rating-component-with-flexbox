@@ -1,0 +1,25 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+}
+
+.rating-card {
+    background-color: white;
+    height: 400px;
+    width: 500px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rating-card > div {
+    background-color: green;
+    flex-grow: 1;
+    flex-shrink: 3;
+    margin: 5px;
+}
+
+.rating-card .rating-text {
+    flex-grow: 2;
+    flex-shrink: 0;
+}
