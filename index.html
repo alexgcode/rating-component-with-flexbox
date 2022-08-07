@@ -15,7 +15,7 @@
 
   <main>
     <div class="rating-container">
-      <div class="rating-card">
+      <div class="rating-card" id="rating">
         <div class="rating-star">
             <div class="star">
               <img src="images/icon-star.svg" alt="star">
@@ -29,24 +29,24 @@
           </p>
         </div>
         <div class="rating-numbers">
-          <span>1</span>
-          <span>2</span>
-          <span>3</span>
-          <span>4</span>
-          <span>5</span>
+          <input type="radio" name="rating" value="5" id="rating-5"><label for="rating-5">5</label>
+          <input type="radio" name="rating" value="4" id="rating-4"><label for="rating-4">4</label>
+          <input type="radio" name="rating" value="3" id="rating-3"><label for="rating-3">3</label>
+          <input type="radio" name="rating" value="2" id="rating-2"><label for="rating-2">2</label>
+          <input type="radio" name="rating" value="1" id="rating-1"><label for="rating-1">1</label>
         </div>
         <div class="rating-button-div">
-          <button onclick="location.href='thankyou.html';">Submit</button>
+          <button onclick="add_rating()">Submit</button>
         </div>
       </div>
 
-      <div class="rating-card">
+      <div class="rating-card" id="thankyou">
         <div class="rating-thankyou-image">
           <img src="images/illustration-thank-you.svg" alt="star">
         </div>
         <div class="rating-selected">
           <div class="rating-selected-values">
-            You selected 1 out of 5
+            You selected <label id="rating-selected"></label> out of 5
           </div>
         </div>
         <div class="rating-text">
