@@ -26,15 +26,6 @@ Users should be able to:
 - Select and submit a number rating
 - See the "Thank you" card state after submitting a rating
 
-### Screenshot
-
-![Mobile view of solution](./design/mobile.png)
-
-![Mobile view of submitted state](./design/mobile-submitted.png)
-
-![Desktop view of solution](./design/desktop.png)
-
-
 ### Links
 
 - Solution URL: [Link to GitHub repo](https://github.com/alexgcode/rating-component-with-flexbox)
@@ -55,4 +46,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@elaineleung](https://www.frontendmentor.io/profile/alexgcode)
+- Frontend Mentor - [@alexgcode](https://www.frontendmentor.io/profile/alexgcode)
