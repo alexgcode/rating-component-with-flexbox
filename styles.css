@@ -6,6 +6,19 @@
 
 body {
     background-color: hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.rating-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
 }
 
 .rating-card {
@@ -141,4 +154,16 @@ body {
 
 .rating-text {
     text-align: center;
+}
+
+.attribution { 
+    height: 5vh;
+    font-size: 11px; 
+    text-align: center; 
+    color: hsl(217, 12%, 63%);
+    align-self: flex-end;
+}
+
+.attribution a { 
+    color: hsl(217, 12%, 63%);
 }
