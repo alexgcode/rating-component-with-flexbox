@@ -42,7 +42,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [MDN Web Docs](https://developer.mozilla.org) - I used MDN as a reference for a few things here, such as HTML semantic and non-semantic elements as well as some methods for the DOM.
+- [MDN Web Docs](https://developer.mozilla.org) - For HTML semantic and non-semantic elements.
 
 ## Author
 
